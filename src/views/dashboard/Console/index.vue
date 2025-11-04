@@ -45,22 +45,22 @@
 
         <div class="button-wrap">
           <div class="btn">
-            <span>总开发</span>
-            <el-text style="display: flex;align-items: center;">易子豪&nbsp;
-              <el-text size="small">九音技术开发</el-text></el-text>
+            <span>项目作者</span>
+            <el-text style="display: flex;align-items: center;">芋桃&nbsp;
+              <el-text size="small">子止工坊技术部</el-text></el-text>
           </div>
           <div class="btn">
-            <span>制作组</span>
-            <el-text style="display: flex;align-items: center;" truncated>24软件技术一班
-              &nbsp;<el-text size="small" truncated>江西新能源科技职业学院</el-text></el-text>
+            <span>协助监制</span>
+            <el-text style="display: flex;align-items: center;">
+              Yiesc(Jss) ZGC Hpcoccs(Jthr)
+            </el-text>
           </div>
-          <div class="btn"
-            @click="goPage('https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzkyODg4MTc5Mg==&action=getalbum&album_id=3740032765300015105#wechat_redirect')">
-            <span>项目日志</span>
+          <div class="btn" @click="goPage('https://space.bilibili.com/511657380')">
+            <span>哔哩哔哩</span>
             <i class="iconfont">&#xe7e7;</i>
           </div>
-          <div class="btn" @click="goPage('https://ninemusic.cn')">
-            <span>九音官网</span>
+          <div class="btn" @click="goPage('https://github.com/YutaoY/Class-Management-System')">
+            <span>开源地址</span>
             <i class="iconfont">&#xe7e7;</i>
           </div>
         </div>
